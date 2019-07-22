@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Unlock');
+
+.wrapper {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+span {
+    font-weight: 700;
+}

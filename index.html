@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Survival Game - CPSC 1045    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    
+</head>
+<body>
+    <div class="wrapper">
+        <canvas id="myCanvas" height="600px" width="600px" style="cursor: default"></canvas>
+        <div class="instructions">
+            <h2>Survival Game Instructions</h2>
+            <h3>Game Objective:</h3>
+            <p>Try to survive as long as you can by not letting the monsters hit you. Use the keys WASD to move around the field. <br>
+                You can also shoot the mosters by aiming at them with the mouse cursor and left-clicking the mouse.
+            </p>
+            <br>
+            <h3>Game Mechanics:</h3>
+            <p>The Hero starts with 30 HP (health) and looses a portion of that every time that a monster hits him. <br> From time to time a healt booster pack appears and can provide a 10 Hp boost if you can get to it before it desapears.</p>
+            <p>You earn points by killing the monsters and by the amount of time you have survived. </p>
+            <p>The monsters will start to appear more frequently and will get faster as the time passes.</p> 
+            <h3>Game Controls:</h3>
+            <p><span>W</span>: Move up</p>
+            <p><span>A</span>: Move Left</p>
+            <p><span>S</span>: Move Down</p>
+            <p><span>D</span>: Move Right</p>
+            <p><span>R</span>: Reload (it takes 2.5 seconds to reload the gun)</p>
+            <p><span>Left-click</span>: Shoot Gun</p>
+
+        </div>
+    </div>
+
+    
+    </body>
+    
+    <script src="main.js"></script>
+</html>
